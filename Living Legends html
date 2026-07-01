@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Living Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game">
+    <h1>🧬 Living Legends</h1>
+    <p>Test your Biology knowledge!</p>
+
+    <button onclick="startGame()">Start Game</button>
+
+    <p id="question"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
