@@ -1,0 +1,20 @@
+const questions = [
+  {
+    q: "What is the powerhouse of the cell?",
+    a: "Mitochondria"
+  },
+  {
+    q: "Which organ pumps blood?",
+    a: "Heart"
+  },
+  {
+    q: "What is the largest organ in the human body?",
+    a: "Skin"
+  }
+];
+
+function startGame() {
+  const random = questions[Math.floor(Math.random() * questions.length)];
+  document.getElementById("question").innerHTML =
+    `${random.q}<br><br><b>Answer:</b> ${random.a}`;
+}
